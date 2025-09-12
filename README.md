@@ -20,7 +20,7 @@ A simple Java Servlet-based Weather Application that fetches real-time weather d
 🖥️ Servlet-based backend with JSON parsing using Gson
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🔹Tech Stack
+<h3>Tech Stack</h3>
 
 Java (Servlets, HttpURLConnection / HttpClient)
 
@@ -34,7 +34,7 @@ Weatherstack API
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🔹 How It Works
+<h3>How It Works</h3>
 
 User enters a city name.
 
