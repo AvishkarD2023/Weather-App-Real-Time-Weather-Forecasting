@@ -35,7 +35,7 @@ Weatherstack API
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h3>How It Works</h3>
-
+<li>
 User enters a city name.
 
 Servlet sends a request to Weatherstack API with the city query.
@@ -43,3 +43,4 @@ Servlet sends a request to Weatherstack API with the city query.
 API responds with JSON weather data.
 
 Data is parsed using Gson and displayed in a formatted way on the web page.
+</li>
