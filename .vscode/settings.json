@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "MyServlet",   // change to your main class name
+      "projectName": "YourProjectName",
+      "env": {
+        "API_KEY": "1f211132206d8e2d5980b5ee04d8f61d"
+      }
+    }
+  ]
+}
