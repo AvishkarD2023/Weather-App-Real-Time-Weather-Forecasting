@@ -37,7 +37,7 @@ public class MyServlet extends HttpServlet {
 		PrintWriter pw = response.getWriter();
 		
 		String city = request.getParameter("city");
-		String apiKey = "1f211132206d8e2d5980b5ee04d8f61d";
+		String apiKey = "98b19b11871c6a3ce3c2f7e18f8a4f7c";
 		
 		String apiUrl = "http://api.weatherstack.com/current?access_key=" +apiKey+ "&query="+city;
 
