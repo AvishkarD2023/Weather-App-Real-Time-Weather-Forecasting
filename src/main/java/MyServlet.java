@@ -42,7 +42,10 @@ public class MyServlet extends HttpServlet {
 		String apiUrl = "http://api.weatherstack.com/current?access_key=" +apiKey+ "&query="+city;
 
 		//api integration
-		URL url = new URL(apiUrl);
+//		URL url = new URL(apiUrl);
+		URI uri = URI.create(apiUrl);  // safely creates a URI
+		URL url = uri.toURL();         // then convert to URL
+
 		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 		conn.setRequestMethod("GET");
 		
