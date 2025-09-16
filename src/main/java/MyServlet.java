@@ -23,7 +23,7 @@ import com.google.gson.JsonObject;
  * Servlet implementation class MyServlet
  */
 @WebServlet("/MyServlet")
-public class MyServlet extends HttpServlet {
+public class MyServlet extends HttpServlet implements SecretApi{    //create a SecretApi.java interdace in same directory to hide api key. include this file in gitignore
 	private static final long serialVersionUID = 1L;
     public MyServlet() {
         super();
@@ -37,8 +37,7 @@ public class MyServlet extends HttpServlet {
 		PrintWriter pw = response.getWriter();
 		
 		String city = request.getParameter("city");
-		String apiKey = "98b19b11871c6a3ce3c2f7e18f8a4f7c";
-		
+
 		String apiUrl = "http://api.weatherstack.com/current?access_key=" +apiKey+ "&query="+city;
 
 		//api integration
