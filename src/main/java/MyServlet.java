@@ -23,7 +23,7 @@ import com.google.gson.JsonObject;
  * Servlet implementation class MyServlet
  */
 @WebServlet("/MyServlet")
-public class MyServlet extends HttpServlet implements Secret{    //create a SecretApi.java interdace in same directory to hide api key. include this file in gitignore
+public class MyServlet extends HttpServlet implements Secret{    //create a Secret.java interface in same directory to hide api key. include this file in .gitignore
 	private static final long serialVersionUID = 1L;
     public MyServlet() {
         super();
