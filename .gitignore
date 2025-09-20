@@ -3,3 +3,4 @@
 Secret.java
 src\main\java\SecretApi.java
 *.class
+.settings
